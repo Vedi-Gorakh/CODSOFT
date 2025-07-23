@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.calculator {
+  background: linear-gradient(to right, #d1c4e9, #f3e5f5);
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  width: 320px;
+}
+
+input {
+  /* width: 100%; */
+  padding: 12px;
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.clear-btn,
+.delete-btn {
+  background-color: #dc6ef8;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #dc6ef8;
+}
+
+.clear-btn:hover {
+  background-color: #9e20af;
+}
+
+.delete-btn:hover {
+  background-color: #9e20af;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #bfbfbf;
+}
+h2 {
+  color: rgb(181, 53, 250);
+  text-align: center;
+}
+
